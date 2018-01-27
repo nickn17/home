@@ -1,2 +1,2 @@
 # home
-Home automation 
+Home automation with PHILIPS HUE bridge.
