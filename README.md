@@ -1,5 +1,9 @@
-# home
+## Introduction
 Home automation with PHILIPS HUE bridge.
 
-PHP required
+## Requirements
 - php-apcu
+
+## Installation
+composer require "nickn17/home @dev"
+composer require nickn17/home

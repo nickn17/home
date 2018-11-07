@@ -5,6 +5,13 @@
     "keywords": ["home", "automation"],
     "license": "MIT",
 
+    "authors": [
+        {
+            "name": "NiCK.n17",
+            "email": "nick.n17@gmail.com"
+        }
+    ],
+
     "autoload": {
         "psr-4": {
             "Home\\": "src/Home/"
@@ -17,7 +24,7 @@
     },
 
     "require": {
-        "php": "^5.6 || ^7.0",
+        "php": "^7.0",
         "sqmk/phue": "^1.7"
     },
 
