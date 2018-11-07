@@ -1,0 +1,30 @@
+{
+    "name": "nickn17/home",
+    "type": "library",
+    "description": "Home automation with PHILIPS HUE bridge",
+    "keywords": ["home", "automation"],
+    "license": "MIT",
+
+    "autoload": {
+        "psr-4": {
+            "Home\\": "src/Home/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+        }
+    },
+
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "sqmk/phue": "^1.7"
+    },
+
+    "require-dev": {
+    },
+
+    "config": {
+        "sort-packages": true
+    }
+}
