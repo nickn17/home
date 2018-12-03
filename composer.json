@@ -25,7 +25,8 @@
 
     "require": {
         "php": "^7.0",
-        "sqmk/phue": "^1.7"
+        "sqmk/phue": "^1.7",
+        "vakata/websocket": "^1.0.0"
     },
 
     "require-dev": {
