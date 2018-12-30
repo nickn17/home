@@ -27,6 +27,11 @@ class Application {
             $moduleClass = '\\Home\\' . $moduleName;
             $module = new $moduleClass();
             $module->indexAction();
+        } else {
+            header("HTTP/1.0 404 Not Found");
+            echo "HTTP/1.0 404 Not Found";
         }
+        
+        exit();
     }
 }
